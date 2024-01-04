@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import Toaster from '../Toaster.vue'
+</script>
+
 <template>
   <nav class="bg-gray-800 text-white">
     <div class="mx-auto px-8">
@@ -25,5 +29,6 @@
   </nav>
   <main class="flex justify-center">
     <router-view />
+    <Toaster />
   </main>
 </template>
