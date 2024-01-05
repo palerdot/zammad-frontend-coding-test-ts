@@ -1,3 +1,9 @@
+# Code Pointers
+
+- Task 1 is done by fetching country details from public graphql api. The page can be reached from the nav bar. There are two pages - all countries, country specific detail page.
+- Task 2: Toast is accomplished with `useToast` composable present in the `hooks` folder. Display of toasts is done by `Toaster` component.
+- Task 3: Test for `useToast` composable is present in the `tests` folder.
+
 # Frontend Coding Challenge
 
 Clone this repo, run `npm install` and start the project using `npm run dev`.
