@@ -3,6 +3,7 @@
     <h1 class="font-extrabold tracking-tigh text-3xl leading-10">
       Ready for the challenge?
     </h1>
+    <Intro />
     <div class="mt-8">
       <section>
         <h2 class="font-bold text-2xl leading-6">Exercise 1</h2>
@@ -109,6 +110,7 @@
 <script setup lang="ts">
 import { reactive } from 'vue'
 import { ShowExercises } from '../types/exercise'
+import Intro from './Intro.vue'
 
 const showExercise = reactive<ShowExercises>({
   second: false,

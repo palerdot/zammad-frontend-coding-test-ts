@@ -6,7 +6,7 @@ const toasts: Array<Notification> = inject('toasts') || []
 </script>
 
 <template>
-  <div class="absolute space-y-1 border m-2 w-auto">
+  <div class="fixed top-4 space-y-1 m-2 w-auto z-50">
     <div
       v-for="toast in toasts"
       class="border p-2 bg-white rounded font-medium"
